@@ -96,9 +96,9 @@ wget http://us.download.nvidia.com/XFree86/Linux-x86_64/375.39/NVIDIA-Linux-x86_
 2. Start the driver installation
 
 ```
-sudo bash ./NVIDIA-Linux-x86_64-375.39.run --no-x-check -a -s
+sudo bash ./NVIDIA-Linux-x86_64-375.39.run -–no-opengl-files –-no-x-check --no-kernel-module
 ```
-
+3. Reboot your system
 ### References
 
 1. Ubuntu official [website](https://www.ubuntu.com/desktop)
