@@ -34,7 +34,8 @@ Follow these steps:
    ```shell
    sudo apt-get install linux-generic-lts-xenial
    ```
-
+   d. Reboot your system using the reboot command.
+   
 ![tip_icon](images/tip_icon.png)The IPC must have Internet access to update and install software. Make sure that the Ethernet cable is connected to a network with Internet access. You might need to configure the network for the IPC if the network that it is connected to is not using the Dynamic Host Configuration Protocol (DHCP).
 
 #### Installing the Apollo Kernel
