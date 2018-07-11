@@ -38,4 +38,5 @@ sudo ./NVIDIA-Linux-x86_64-384.59.run –no-opengl-files –no-x-check -no-kerne
 - 遇到此问题的用户不多，github也有相关[issue](https://github.com/ApolloAuto/apollo/issues/1872)
 - 笔者对参数 -no-kernel-module 所带来的影响还未测试，后续在使用过程遇到问题会在此更新
 - 其他硬件环境尚未测试
-- 安装完ubuntu14之后，我没有严格按照[这个文档](https://github.com/ApolloAuto/apollo/blob/master/docs/specs/Software_and_Kernel_Installation_guide.md)来安装4.4的kernel，所以 上述问题也有可能是个案，没代表性，仅供参考。
+- 进一步核实，在上述硬件环境中，[这个文档](https://github.com/ApolloAuto/apollo/blob/master/docs/specs/Software_and_Kernel_Installation_guide.md)中的步骤无法正常安装。笔者已更新此文档。
+- 目前可以参照本文档进行安装，也可以参照 [更新后的文档](https://github.com/zhangtianzi/apollo/blob/master/docs/specs/Software_and_Kernel_Installation_guide.md)
